@@ -22,15 +22,15 @@ It uses a real historical dataset of sports betting odds to train the model and 
 realtime-sports-predictor/
   data/
     sports_betting_predictive_analysis.csv   # raw Kaggle data
-    historical_games.csv                     # processed training data (generated)
+    historical_games.csv                     # processed training data
   models/
-    game_outcome_model.pkl                   # trained model (generated)
+    game_outcome_model.pkl                   # trained model
   config.py
   data_fetcher.py
   featurizer.py
   live_predictor.py
   main.py
-  prepare_kaggle_data.py                     # converts Kaggle data → model-ready data
+  prepare_kaggle_data.py                     # converts Kaggle data to model-ready data
   trainer.py
   requirements.txt
   .env.example
